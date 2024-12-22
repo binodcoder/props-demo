@@ -9,8 +9,8 @@ function Contacts(props) {
           <img className="circle-img" src={props.img} alt="avatar_img" />
         </div>
         <div className="bottom">
-          <p>{props.tel}</p>
-          <p>{props.email}</p>
+          <p className="info">{props.tel}</p>
+          <p className="info">{props.email}</p>
         </div>
       </div>
     </div>
